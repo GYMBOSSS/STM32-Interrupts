@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/WorkLearn/stm/stm32-interrupts/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

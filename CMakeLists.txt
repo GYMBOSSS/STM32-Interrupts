@@ -25,7 +25,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
     SUFFIX ".elf"
 )
 
-project(blink_registers C ASM)
+project(stm32-interrupts C ASM)
 
 add_executable(${PROJECT_NAME}
     src/main.c
