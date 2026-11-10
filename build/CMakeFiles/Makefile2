@@ -56,20 +56,20 @@ RM = C:\WorkLearn\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\WorkLearn\stm\stm32-interrupts
+CMAKE_SOURCE_DIR = C:\WorkLearn\stm\stm32-baremetal-driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\WorkLearn\stm\stm32-interrupts\build
+CMAKE_BINARY_DIR = C:\WorkLearn\stm\stm32-baremetal-driver\build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/stm32-interrupts.dir/all
+all: CMakeFiles/stm32-baremetal-driver.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/stm32-interrupts.dir/codegen
+codegen: CMakeFiles/stm32-baremetal-driver.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -77,40 +77,73 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/stm32-interrupts.dir/clean
+clean: CMakeFiles/stm32-baremetal-driver.dir/clean
+clean: CMakeFiles/flash.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/stm32-interrupts.dir
+# Target rules for target CMakeFiles/stm32-baremetal-driver.dir
 
 # All Build rule for target.
-CMakeFiles/stm32-interrupts.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkLearn\stm\stm32-interrupts\build\CMakeFiles --progress-num=1,2,3,4 "Built target stm32-interrupts"
-.PHONY : CMakeFiles/stm32-interrupts.dir/all
+CMakeFiles/stm32-baremetal-driver.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkLearn\stm\stm32-baremetal-driver\build\CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11 "Built target stm32-baremetal-driver"
+.PHONY : CMakeFiles/stm32-baremetal-driver.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/stm32-interrupts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkLearn\stm\stm32-interrupts\build\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/stm32-interrupts.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkLearn\stm\stm32-interrupts\build\CMakeFiles 0
-.PHONY : CMakeFiles/stm32-interrupts.dir/rule
+CMakeFiles/stm32-baremetal-driver.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkLearn\stm\stm32-baremetal-driver\build\CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/stm32-baremetal-driver.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkLearn\stm\stm32-baremetal-driver\build\CMakeFiles 0
+.PHONY : CMakeFiles/stm32-baremetal-driver.dir/rule
 
 # Convenience name for target.
-stm32-interrupts: CMakeFiles/stm32-interrupts.dir/rule
-.PHONY : stm32-interrupts
+stm32-baremetal-driver: CMakeFiles/stm32-baremetal-driver.dir/rule
+.PHONY : stm32-baremetal-driver
 
 # codegen rule for target.
-CMakeFiles/stm32-interrupts.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkLearn\stm\stm32-interrupts\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target stm32-interrupts"
-.PHONY : CMakeFiles/stm32-interrupts.dir/codegen
+CMakeFiles/stm32-baremetal-driver.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkLearn\stm\stm32-baremetal-driver\build\CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11 "Finished codegen for target stm32-baremetal-driver"
+.PHONY : CMakeFiles/stm32-baremetal-driver.dir/codegen
 
 # clean rule for target.
-CMakeFiles/stm32-interrupts.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/clean
-.PHONY : CMakeFiles/stm32-interrupts.dir/clean
+CMakeFiles/stm32-baremetal-driver.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/clean
+.PHONY : CMakeFiles/stm32-baremetal-driver.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/flash.dir
+
+# All Build rule for target.
+CMakeFiles/flash.dir/all: CMakeFiles/stm32-baremetal-driver.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkLearn\stm\stm32-baremetal-driver\build\CMakeFiles --progress-num=1 "Built target flash"
+.PHONY : CMakeFiles/flash.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/flash.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkLearn\stm\stm32-baremetal-driver\build\CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/flash.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkLearn\stm\stm32-baremetal-driver\build\CMakeFiles 0
+.PHONY : CMakeFiles/flash.dir/rule
+
+# Convenience name for target.
+flash: CMakeFiles/flash.dir/rule
+.PHONY : flash
+
+# codegen rule for target.
+CMakeFiles/flash.dir/codegen: CMakeFiles/stm32-baremetal-driver.dir/codegen
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkLearn\stm\stm32-baremetal-driver\build\CMakeFiles --progress-num=1 "Finished codegen for target flash"
+.PHONY : CMakeFiles/flash.dir/codegen
+
+# clean rule for target.
+CMakeFiles/flash.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/clean
+.PHONY : CMakeFiles/flash.dir/clean
 
 #=============================================================================
 # Targets to build the dependencies of tests.

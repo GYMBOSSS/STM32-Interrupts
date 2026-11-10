@@ -4,7 +4,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "15.2.1")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
-set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "11")
+set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "23")
 set(CMAKE_C_EXTENSIONS_COMPUTED_DEFAULT "ON")
 set(CMAKE_C_STANDARD_LATEST "23")
 set(CMAKE_C_COMPILE_FEATURES "c_std_90;c_function_prototypes;c_std_99;c_restrict;c_variadic_macros;c_std_11;c_static_assert;c_std_17;c_std_23")
@@ -19,7 +19,7 @@ set(CMAKE_C_SIMULATE_ID "")
 set(CMAKE_C_COMPILER_FRONTEND_VARIANT "GNU")
 set(CMAKE_C_COMPILER_APPLE_SYSROOT "")
 set(CMAKE_C_SIMULATE_VERSION "")
-set(CMAKE_C_COMPILER_ARCHITECTURE_ID "armv7")
+set(CMAKE_C_COMPILER_ARCHITECTURE_ID "")
 
 
 
@@ -81,6 +81,6 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/include;C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed;C:/WorkLearn/SysGCC/arm-eabi/arm-none-eabi/include")
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;g;c;gcc;c;nosys")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp;C:/WorkLearn/SysGCC/arm-eabi/arm-none-eabi/lib/thumb/v7-m/nofp;C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1;C:/WorkLearn/SysGCC/arm-eabi/lib/gcc;C:/WorkLearn/SysGCC/arm-eabi/arm-none-eabi/lib")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

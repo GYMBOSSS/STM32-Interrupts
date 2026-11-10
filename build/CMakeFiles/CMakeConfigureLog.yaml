@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineSystem.cmake:215 (message)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     message: |
       The target system is: Generic -  - arm
       The host system is: Windows - 10.0.26300 - AMD64
@@ -13,7 +13,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Path to a program."
@@ -28,7 +28,6 @@ events:
     names:
       - "mingw32-make.exe"
     candidate_directories:
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -42,14 +41,11 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "c:/MinGW/bin/"
       - "/MinGW/bin/"
       - "/REGISTRY-NOTFOUND/MinGW/bin/"
     searched_directories:
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/mingw32-make.exe.com"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/mingw32-make.exe"
       - "C:/Windows/System32/mingw32-make.exe.com"
       - "C:/Windows/System32/mingw32-make.exe"
       - "C:/Windows/mingw32-make.exe.com"
@@ -68,7 +64,6 @@ events:
     found: "C:/WorkLearn/MinGW/bin/mingw32-make.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -82,14 +77,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_WITH_PATH"
     description: "Path to a program."
@@ -104,7 +97,6 @@ events:
     names:
       - "arm-none-eabi-gcc"
     candidate_directories:
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -118,11 +110,7 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-gcc.com"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-gcc.exe"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-gcc"
       - "C:/Windows/System32/arm-none-eabi-gcc.com"
       - "C:/Windows/System32/arm-none-eabi-gcc.exe"
       - "C:/Windows/System32/arm-none-eabi-gcc"
@@ -151,7 +139,6 @@ events:
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -165,8 +152,6 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -175,7 +160,7 @@ events:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -194,7 +179,6 @@ events:
     found: "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -208,47 +192,33 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "message-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc.exe 
-      Build flags: -mcpu=cortex-m3;-mthumb;-mfloat-abi=soft;-std=gnu11;-Wall;-Wextra;-Og;-g3;-ggdb
+      Build flags: 
       Id flags:  
       
       The output was:
       1
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-exit.o): in function `exit':
-      exit.c:(.text.exit+0x14): undefined reference to `_exit'
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: (_exit): Unknown destination type (ARM/Thumb) in C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-exit.o)
-      exit.c:(.text.exit+0x14): dangerous relocation: unsupported relocation
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-closer.o): in function `_close_r':
-      closer.c:(.text._close_r+0xc): undefined reference to `_close'
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: (_close): Unknown destination type (ARM/Thumb) in C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-closer.o)
-      closer.c:(.text._close_r+0xc): dangerous relocation: unsupported relocation
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-lseekr.o): in function `_lseek_r':
-      lseekr.c:(.text._lseek_r+0x12): undefined reference to `_lseek'
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: (_lseek): Unknown destination type (ARM/Thumb) in C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-lseekr.o)
-      lseekr.c:(.text._lseek_r+0x12): dangerous relocation: unsupported relocation
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-readr.o): in function `_read_r':
-      readr.c:(.text._read_r+0x12): undefined reference to `_read'
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: (_read): Unknown destination type (ARM/Thumb) in C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-readr.o)
-      readr.c:(.text._read_r+0x12): dangerous relocation: unsupported relocation
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-writer.o): in function `_write_r':
-      writer.c:(.text._write_r+0x12): undefined reference to `_write'
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: (_write): Unknown destination type (ARM/Thumb) in C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-writer.o)
-      writer.c:(.text._write_r+0x12): dangerous relocation: unsupported relocation
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-sbrkr.o): in function `_sbrk_r':
-      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
-      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: (_sbrk): Unknown destination type (ARM/Thumb) in C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-sbrkr.o)
-      sbrkr.c:(.text._sbrk_r+0xc): dangerous relocation: unsupported relocation
+      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
       collect2.exe: error: ld returned 1 exit status
       
       
@@ -260,7 +230,7 @@ events:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -279,7 +249,6 @@ events:
     found: "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -293,19 +262,17 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "message-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc.exe 
-      Build flags: -mcpu=cortex-m3;-mthumb;-mfloat-abi=soft;-std=gnu11;-Wall;-Wextra;-Og;-g3;-ggdb
+      Build flags: 
       Id flags: -c 
       
       The output was:
@@ -315,14 +282,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/4.5.0-rc2/CompilerIdC/CMakeCCompilerId.o
+        C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/4.5.0-rc2/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -339,7 +306,6 @@ events:
       - "ar"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -352,13 +318,11 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-ar.com"
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -372,14 +336,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -396,7 +358,6 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -409,13 +370,11 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-ranlib.com"
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -429,14 +388,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -453,7 +410,6 @@ events:
       - "strip"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -466,13 +422,11 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-strip.com"
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-strip.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -486,14 +440,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -510,7 +462,6 @@ events:
       - "ld"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -523,13 +474,11 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-ld.com"
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-ld.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -543,14 +492,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -567,7 +514,6 @@ events:
       - "nm"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -580,13 +526,11 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-nm.com"
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-nm.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -600,14 +544,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -624,7 +566,6 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -637,13 +578,11 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-objdump.com"
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-objdump.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -657,14 +596,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -681,7 +618,6 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -694,13 +630,11 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-readelf.com"
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-readelf.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -714,14 +648,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -738,7 +670,6 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -751,14 +682,10 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-dlltool.com"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-dlltool.exe"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-dlltool"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-dlltool.com"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-dlltool.exe"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-dlltool"
       - "C:/Windows/System32/arm-none-eabi-dlltool.com"
       - "C:/Windows/System32/arm-none-eabi-dlltool.exe"
       - "C:/Windows/System32/arm-none-eabi-dlltool"
@@ -795,15 +722,9 @@ events:
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/arm-none-eabi-dlltool.com"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/arm-none-eabi-dlltool.exe"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/arm-none-eabi-dlltool"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-dlltool.com"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-dlltool.exe"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-dlltool"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/dlltool.com"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/dlltool.exe"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/dlltool"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/dlltool.com"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/dlltool.exe"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/dlltool"
       - "C:/Windows/System32/dlltool.com"
       - "C:/Windows/System32/dlltool.exe"
       - "C:/Windows/System32/dlltool"
@@ -829,7 +750,6 @@ events:
     found: "C:/WorkLearn/MinGW/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -843,14 +763,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -867,7 +785,6 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -880,13 +797,11 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-addr2line.com"
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-addr2line.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -900,14 +815,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -924,7 +837,6 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -937,14 +849,10 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-tapi.com"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-tapi.exe"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-tapi"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-tapi.com"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-tapi.exe"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-tapi"
       - "C:/Windows/System32/arm-none-eabi-tapi.com"
       - "C:/Windows/System32/arm-none-eabi-tapi.exe"
       - "C:/Windows/System32/arm-none-eabi-tapi"
@@ -981,15 +889,9 @@ events:
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/arm-none-eabi-tapi.com"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/arm-none-eabi-tapi.exe"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/arm-none-eabi-tapi"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-tapi.com"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-tapi.exe"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-tapi"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/tapi.com"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/tapi.exe"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/tapi"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/tapi.com"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/tapi.exe"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/tapi"
       - "C:/Windows/System32/tapi.com"
       - "C:/Windows/System32/tapi.exe"
       - "C:/Windows/System32/tapi"
@@ -1026,13 +928,9 @@ events:
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/tapi.com"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/tapi.exe"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/tapi"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1046,14 +944,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:202 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1072,7 +968,6 @@ events:
       - "arm-none-eabi-gcc-ar"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1085,7 +980,6 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ar-15.2.com"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ar-15.2.exe"
@@ -1100,7 +994,6 @@ events:
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1114,14 +1007,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:33 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:202 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1140,7 +1031,6 @@ events:
       - "arm-none-eabi-gcc-ranlib"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1153,7 +1043,6 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ranlib-15.2.com"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
@@ -1168,7 +1057,6 @@ events:
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1182,14 +1070,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineASMCompiler.cmake:64 (_cmake_find_compiler_path)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_ASM_COMPILER_WITH_PATH"
     description: "Path to a program."
@@ -1204,7 +1090,6 @@ events:
     names:
       - "arm-none-eabi-gcc"
     candidate_directories:
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1218,11 +1103,7 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-gcc.com"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-gcc.exe"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/arm-none-eabi-gcc"
       - "C:/Windows/System32/arm-none-eabi-gcc.com"
       - "C:/Windows/System32/arm-none-eabi-gcc.exe"
       - "C:/Windows/System32/arm-none-eabi-gcc"
@@ -1251,7 +1132,6 @@ events:
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1265,14 +1145,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "message-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:1392 (message)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineASMCompiler.cmake:174 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
       arm-none-eabi-gcc.exe (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 15.2.1 20251203
@@ -1285,7 +1163,7 @@ events:
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_ASM_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1304,7 +1182,6 @@ events:
       - "arm-none-eabi-gcc-ar"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1317,7 +1194,6 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ar-.com"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ar-.exe"
@@ -1329,7 +1205,6 @@ events:
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1343,14 +1218,12 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "find-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:33 (find_program)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     mode: "program"
     variable: "CMAKE_ASM_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1369,7 +1242,6 @@ events:
       - "arm-none-eabi-gcc-ranlib"
     candidate_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
-      - "C:/Users/aleks/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1382,7 +1254,6 @@ events:
       - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
-      - "C:/Users/aleks/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ranlib-.com"
       - "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ranlib-.exe"
@@ -1394,7 +1265,6 @@ events:
     found: "C:/WorkLearn/SysGCC/arm-eabi/bin/arm-none-eabi-gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\aleks\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.3\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1408,34 +1278,32 @@ events:
         - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
-        - "c:\\Users\\aleks\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/CMakeScratch/TryCompile-m2stq6"
-      binary: "C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/CMakeScratch/TryCompile-m2stq6"
+      source: "C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/CMakeScratch/TryCompile-ih38wh"
+      binary: "C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/CMakeScratch/TryCompile-ih38wh"
     cmakeVariables:
-      CMAKE_C_FLAGS: "-mcpu=cortex-m3 -mthumb -mfloat-abi=soft -std=gnu11 -Wall -Wextra -Og -g3 -ggdb"
+      CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: "-mcpu=cortex-m3 -mthumb -mfloat-abi=soft      -TC:/WorkLearn/stm/stm32-interrupts/linker/STM32F103RBTx_FLASH.ld      --specs=nosys.specs      -Wl,-Map=.map      -Wl,--print-memory-usage"
+      CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/CMakeScratch/TryCompile-m2stq6'
+        Change Dir: 'C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/CMakeScratch/TryCompile-ih38wh'
         
-        Run Build Command(s): C:/WorkLearn/CMake/bin/cmake.exe -E env VERBOSE=1 C:/WorkLearn/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8f0c3/fast
-        C:/WorkLearn/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8f0c3.dir\\build.make CMakeFiles/cmTC_8f0c3.dir/build
-        mingw32-make[1]: Entering directory 'C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/CMakeScratch/TryCompile-m2stq6'
-        Building C object CMakeFiles/cmTC_8f0c3.dir/CMakeCCompilerABI.c.obj
-        C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -std=gnu11 -Wall -Wextra -Og -g3 -ggdb    -v -o CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.obj -c C:\\WorkLearn\\CMake\\share\\cmake-4.5\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): C:/WorkLearn/CMake/bin/cmake.exe -E env VERBOSE=1 C:/WorkLearn/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b5f7c/fast
+        C:/WorkLearn/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b5f7c.dir\\build.make CMakeFiles/cmTC_b5f7c.dir/build
+        mingw32-make[1]: Entering directory 'C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/CMakeScratch/TryCompile-ih38wh'
+        Building C object CMakeFiles/cmTC_b5f7c.dir/CMakeCCompilerABI.c.obj
+        C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe   -v -o CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.obj -c C:\\WorkLearn\\CMake\\share\\cmake-4.5\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
@@ -1443,9 +1311,9 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-std=gnu11' '-Wall' '-Wextra' '-Og' '-g3' '-ggdb' '-v' '-o' 'CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m' '-dumpdir' 'CMakeFiles\\cmTC_8f0c3.dir\\'
-         C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1.exe -quiet -v -imultilib thumb/v7-m/nofp -iprefix C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi -dD -D__USES_INITFINI__ C:\\WorkLearn\\CMake\\share\\cmake-4.5\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_8f0c3.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -mlibarch=armv7-m -march=armv7-m -g3 -ggdb -Og -Wall -Wextra -std=gnu11 -version -o C:\\Users\\aleks\\AppData\\Local\\Temp\\ccYYVU1d.s
-        GNU C11 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b5f7c.dir\\'
+         C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1.exe -quiet -v -iprefix C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:\\WorkLearn\\CMake\\share\\cmake-4.5\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_b5f7c.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\aleks\\AppData\\Local\\Temp\\ccmFdvSc.s
+        GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
         	compiled by GNU C version 13-win32, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -1461,36 +1329,18 @@ events:
          C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 06ab445c59ba8f89bbf09b9a069e4cf7
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-std=gnu11' '-Wall' '-Wextra' '-Og' '-g3' '-ggdb' '-v' '-o' 'CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m' '-dumpdir' 'CMakeFiles\\cmTC_8f0c3.dir\\'
-         C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.obj C:\\Users\\aleks\\AppData\\Local\\Temp\\ccYYVU1d.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b5f7c.dir\\'
+         C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\aleks\\AppData\\Local\\Temp\\ccmFdvSc.s
         GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
         COMPILER_PATH=C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/;C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
-        LIBRARY_PATH=C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/;C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/thumb/v7-m/nofp/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/;C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-std=gnu11' '-Wall' '-Wextra' '-Og' '-g3' '-ggdb' '-v' '-o' 'CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m' '-dumpdir' 'CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_8f0c3
-        C:\\WorkLearn\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8f0c3.dir\\link.txt --verbose=1
-        Using built-in specs.
-        Reading specs from C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/nosys.specs
-        rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
-        COLLECT_GCC=C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe
-        COLLECT_LTO_WRAPPER=C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe
-        Target: arm-none-eabi
-        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
-        Thread model: single
-        Supported LTO compression algorithms: zlib
-        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
-        COMPILER_PATH=C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/;C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
-        LIBRARY_PATH=C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/;C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/thumb/v7-m/nofp/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/;C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mfloat-abi=soft' '-std=gnu11' '-Wall' '-Wextra' '-Og' '-g3' '-ggdb' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-T' 'C:/WorkLearn/stm/stm32-interrupts/linker/STM32F103RBTx_FLASH.ld' '-specs=nosys.specs' '-v' '-o' 'cmTC_8f0c3' '-mlibarch=armv7-m' '-march=armv7-m' '-dumpdir' 'cmTC_8f0c3.'
-         C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe -plugin C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll -plugin-opt=C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\aleks\\AppData\\Local\\Temp\\ccNgtXei.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi -X -o cmTC_8f0c3 C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o -LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp -LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp -LC:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/thumb/v7-m/nofp -LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc -LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -LC:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib -Map=.map --print-memory-usage CMakeFiles/cmTC_8f0c3.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg -lc --end-group --start-group -lgcc -lc -lnosys --end-group C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o -T C:/WorkLearn/stm/stm32-interrupts/linker/STM32F103RBTx_FLASH.ld
-        C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol Reset_Handler; defaulting to 08000000
-        C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cmTC_8f0c3 has a LOAD segment with RWX permissions
-        Memory region         Used Size  Region Size  %age Used
-                     RAM:        3960 B        20 KB     19.34%
-                   FLASH:        7140 B       128 KB      5.45%
-        COLLECT_GCC_OPTIONS='-mfloat-abi=soft' '-std=gnu11' '-Wall' '-Wextra' '-Og' '-g3' '-ggdb' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-T' 'C:/WorkLearn/stm/stm32-interrupts/linker/STM32F103RBTx_FLASH.ld' '-specs=nosys.specs' '-v' '-o' 'cmTC_8f0c3' '-mlibarch=armv7-m' '-march=armv7-m' '-dumpdir' 'cmTC_8f0c3.'
-        C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -std=gnu11 -Wall -Wextra -Og -g3 -ggdb  -mcpu=cortex-m3 -mthumb -mfloat-abi=soft      -TC:/WorkLearn/stm/stm32-interrupts/linker/STM32F103RBTx_FLASH.ld      --specs=nosys.specs      -Wl,-Map=.map      -Wl,--print-memory-usage -v CMakeFiles/cmTC_8f0c3.dir/CMakeCCompilerABI.c.obj -o cmTC_8f0c3
-        mingw32-make[1]: Leaving directory 'C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/CMakeScratch/TryCompile-m2stq6'
+        LIBRARY_PATH=C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/;C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/;C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_b5f7c.a
+        C:\\WorkLearn\\CMake\\bin\\cmake.exe -P CMakeFiles\\cmTC_b5f7c.dir\\cmake_clean_target.cmake
+        C:\\WorkLearn\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b5f7c.dir\\link.txt --verbose=1
+        C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ar.exe qc libcmTC_b5f7c.a CMakeFiles/cmTC_b5f7c.dir/CMakeCCompilerABI.c.obj
+        C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_b5f7c.a
+        mingw32-make[1]: Leaving directory 'C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/CMakeScratch/TryCompile-ih38wh'
         
       exitCode: 0
   -
@@ -1498,7 +1348,7 @@ events:
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -1518,18 +1368,18 @@ events:
     backtrace:
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
       - "C:/WorkLearn/CMake/share/cmake-4.5/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:28 (project)"
+      - "CMakeLists.txt:15 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)(\\.exe)?"?( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: 'C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/CMakeScratch/TryCompile-m2stq6']
+        ignore line: [Change Dir: 'C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/CMakeScratch/TryCompile-ih38wh']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/WorkLearn/CMake/bin/cmake.exe -E env VERBOSE=1 C:/WorkLearn/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8f0c3/fast]
-        ignore line: [C:/WorkLearn/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8f0c3.dir\\build.make CMakeFiles/cmTC_8f0c3.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/CMakeScratch/TryCompile-m2stq6']
-        ignore line: [Building C object CMakeFiles/cmTC_8f0c3.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -std=gnu11 -Wall -Wextra -Og -g3 -ggdb    -v -o CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.obj -c C:\\WorkLearn\\CMake\\share\\cmake-4.5\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/WorkLearn/CMake/bin/cmake.exe -E env VERBOSE=1 C:/WorkLearn/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b5f7c/fast]
+        ignore line: [C:/WorkLearn/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b5f7c.dir\\build.make CMakeFiles/cmTC_b5f7c.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/CMakeScratch/TryCompile-ih38wh']
+        ignore line: [Building C object CMakeFiles/cmTC_b5f7c.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe   -v -o CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.obj -c C:\\WorkLearn\\CMake\\share\\cmake-4.5\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
@@ -1537,9 +1387,9 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-std=gnu11' '-Wall' '-Wextra' '-Og' '-g3' '-ggdb' '-v' '-o' 'CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m' '-dumpdir' 'CMakeFiles\\cmTC_8f0c3.dir\\']
-        ignore line: [ C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1.exe -quiet -v -imultilib thumb/v7-m/nofp -iprefix C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi -dD -D__USES_INITFINI__ C:\\WorkLearn\\CMake\\share\\cmake-4.5\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_8f0c3.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -mlibarch=armv7-m -march=armv7-m -g3 -ggdb -Og -Wall -Wextra -std=gnu11 -version -o C:\\Users\\aleks\\AppData\\Local\\Temp\\ccYYVU1d.s]
-        ignore line: [GNU C11 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b5f7c.dir\\']
+        ignore line: [ C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1.exe -quiet -v -iprefix C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:\\WorkLearn\\CMake\\share\\cmake-4.5\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_b5f7c.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\aleks\\AppData\\Local\\Temp\\ccmFdvSc.s]
+        ignore line: [GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 13-win32  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -1555,113 +1405,100 @@ events:
         ignore line: [ C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 06ab445c59ba8f89bbf09b9a069e4cf7]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-std=gnu11' '-Wall' '-Wextra' '-Og' '-g3' '-ggdb' '-v' '-o' 'CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m' '-dumpdir' 'CMakeFiles\\cmTC_8f0c3.dir\\']
-        ignore line: [ C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.obj C:\\Users\\aleks\\AppData\\Local\\Temp\\ccYYVU1d.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b5f7c.dir\\']
+        ignore line: [ C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\aleks\\AppData\\Local\\Temp\\ccmFdvSc.s]
         ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
         ignore line: [COMPILER_PATH=C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/]
         ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/]
         ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
-        ignore line: [LIBRARY_PATH=C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/thumb/v7-m/nofp/]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/]
+        ignore line: [LIBRARY_PATH=C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/]
         ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/]
         ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-std=gnu11' '-Wall' '-Wextra' '-Og' '-g3' '-ggdb' '-v' '-o' 'CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m' '-dumpdir' 'CMakeFiles\\cmTC_8f0c3.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_8f0c3]
-        ignore line: [C:\\WorkLearn\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8f0c3.dir\\link.txt --verbose=1]
-        ignore line: [Using built-in specs.]
-        ignore line: [Reading specs from C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/nosys.specs]
-        ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
-        ignore line: [COLLECT_GCC=C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe]
-        ignore line: [COLLECT_LTO_WRAPPER=C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe]
-        ignore line: [Target: arm-none-eabi]
-        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
-        ignore line: [Thread model: single]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
-        ignore line: [COMPILER_PATH=C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
-        ignore line: [LIBRARY_PATH=C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/thumb/v7-m/nofp/]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=soft' '-std=gnu11' '-Wall' '-Wextra' '-Og' '-g3' '-ggdb' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-T' 'C:/WorkLearn/stm/stm32-interrupts/linker/STM32F103RBTx_FLASH.ld' '-specs=nosys.specs' '-v' '-o' 'cmTC_8f0c3' '-mlibarch=armv7-m' '-march=armv7-m' '-dumpdir' 'cmTC_8f0c3.']
-        link line: [ C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe -plugin C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll -plugin-opt=C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\aleks\\AppData\\Local\\Temp\\ccNgtXei.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi -X -o cmTC_8f0c3 C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o -LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp -LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp -LC:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/thumb/v7-m/nofp -LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc -LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -LC:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib -Map=.map --print-memory-usage CMakeFiles/cmTC_8f0c3.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg -lc --end-group --start-group -lgcc -lc -lnosys --end-group C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o -T C:/WorkLearn/stm/stm32-interrupts/linker/STM32F103RBTx_FLASH.ld]
-          arg [C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe] ==> ignore
-          arg [-plugin] ==> ignore, skip following value
-          arg [C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll] ==> skip value of -plugin
-          arg [-plugin-opt=C:/WorkLearn/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\aleks\\AppData\\Local\\Temp\\ccNgtXei.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lg] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
-          arg [--sysroot=C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi] ==> ignore
-          arg [-X] ==> ignore
-          arg [-o] ==> ignore, skip following value
-          arg [cmTC_8f0c3] ==> skip value of -o
-          arg [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o] ==> obj [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o]
-          arg [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o] ==> obj [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o]
-          arg [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o] ==> obj [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o]
-          arg [-LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp] ==> dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp]
-          arg [-LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp] ==> dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp]
-          arg [-LC:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/thumb/v7-m/nofp] ==> dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/thumb/v7-m/nofp]
-          arg [-LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1] ==> dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1]
-          arg [-LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc] ==> dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc]
-          arg [-LC:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib]
-          arg [-LC:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib] ==> dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib]
-          arg [-Map=.map] ==> ignore
-          arg [--print-memory-usage] ==> ignore
-          arg [CMakeFiles/cmTC_8f0c3.dir/CMakeCCompilerABI.c.obj] ==> ignore
-          arg [--start-group] ==> ignore
-          arg [-lgcc] ==> lib [gcc]
-          arg [-lg] ==> lib [g]
-          arg [-lc] ==> lib [c]
-          arg [--end-group] ==> ignore
-          arg [--start-group] ==> ignore
-          arg [-lgcc] ==> lib [gcc]
-          arg [-lc] ==> lib [c]
-          arg [-lnosys] ==> lib [nosys]
-          arg [--end-group] ==> ignore
-          arg [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o] ==> obj [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o]
-          arg [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o] ==> obj [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o]
-          arg [-T] ==> ignore
-          arg [C:/WorkLearn/stm/stm32-interrupts/linker/STM32F103RBTx_FLASH.ld] ==> ignore
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol Reset_Handler]
-        ignore line: [ defaulting to 08000000]
-        ignore line: [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cmTC_8f0c3 has a LOAD segment with RWX permissions]
-        ignore line: [Memory region         Used Size  Region Size  %age Used]
-        ignore line: [             RAM:        3960 B        20 KB     19.34%]
-        ignore line: [           FLASH:        7140 B       128 KB      5.45%]
-        ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=soft' '-std=gnu11' '-Wall' '-Wextra' '-Og' '-g3' '-ggdb' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-T' 'C:/WorkLearn/stm/stm32-interrupts/linker/STM32F103RBTx_FLASH.ld' '-specs=nosys.specs' '-v' '-o' 'cmTC_8f0c3' '-mlibarch=armv7-m' '-march=armv7-m' '-dumpdir' 'cmTC_8f0c3.']
-        ignore line: [C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -std=gnu11 -Wall -Wextra -Og -g3 -ggdb  -mcpu=cortex-m3 -mthumb -mfloat-abi=soft      -TC:/WorkLearn/stm/stm32-interrupts/linker/STM32F103RBTx_FLASH.ld      --specs=nosys.specs      -Wl -Map=.map      -Wl --print-memory-usage -v CMakeFiles/cmTC_8f0c3.dir/CMakeCCompilerABI.c.obj -o cmTC_8f0c3]
-        ignore line: [mingw32-make[1]: Leaving directory 'C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/CMakeScratch/TryCompile-m2stq6']
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b5f7c.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_b5f7c.a]
+        ignore line: [C:\\WorkLearn\\CMake\\bin\\cmake.exe -P CMakeFiles\\cmTC_b5f7c.dir\\cmake_clean_target.cmake]
+        ignore line: [C:\\WorkLearn\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b5f7c.dir\\link.txt --verbose=1]
+        ignore line: [C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ar.exe qc libcmTC_b5f7c.a CMakeFiles/cmTC_b5f7c.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\WorkLearn\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_b5f7c.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/CMakeScratch/TryCompile-ih38wh']
         ignore line: []
         ignore line: []
-        collapse obj [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o] ==> [C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o]
-        collapse obj [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o] ==> [C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o]
-        collapse obj [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o] ==> [C:/WorkLearn/SysGCC/arm-eabi/arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o]
-        collapse obj [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o] ==> [C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o]
-        collapse obj [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o] ==> [C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o]
-        collapse library dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp] ==> [C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp]
-        collapse library dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp] ==> [C:/WorkLearn/SysGCC/arm-eabi/arm-none-eabi/lib/thumb/v7-m/nofp]
-        collapse library dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/thumb/v7-m/nofp] ==> [C:/WorkLearn/SysGCC/arm-eabi/arm-none-eabi/lib/thumb/v7-m/nofp]
-        collapse library dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1] ==> [C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1]
-        collapse library dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc] ==> [C:/WorkLearn/SysGCC/arm-eabi/lib/gcc]
-        collapse library dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> [C:/WorkLearn/SysGCC/arm-eabi/arm-none-eabi/lib]
-        collapse library dir [C:/WorkLearn/SysGCC/arm-eabi/bin/../arm-none-eabi/lib] ==> [C:/WorkLearn/SysGCC/arm-eabi/arm-none-eabi/lib]
-        implicit libs: [gcc;g;c;gcc;c;nosys]
-        implicit objs: [C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o;C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o;C:/WorkLearn/SysGCC/arm-eabi/arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o;C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o;C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o]
-        implicit dirs: [C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp;C:/WorkLearn/SysGCC/arm-eabi/arm-none-eabi/lib/thumb/v7-m/nofp;C:/WorkLearn/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/15.2.1;C:/WorkLearn/SysGCC/arm-eabi/lib/gcc;C:/WorkLearn/SysGCC/arm-eabi/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
         implicit fwks: []
       
       
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:84 (find_program)"
+    mode: "program"
+    variable: "OPENOCD"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openocd"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/WorkLearn/CMake/bin/"
+      - "C:/WorkLearn/openocd/OpenOCD-20260302-0.12.0/bin/"
+      - "C:/WorkLearn/MinGW/bin/"
+      - "C:/WorkLearn/SysGCC/arm-eabi/bin/"
+      - "C:/WorkLearn/Git/cmd/"
+      - "C:/Users/aleks/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aleks/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "/bin/"
+    searched_directories:
+      - "C:/Windows/System32/openocd.com"
+      - "C:/Windows/System32/openocd.exe"
+      - "C:/Windows/System32/openocd"
+      - "C:/Windows/openocd.com"
+      - "C:/Windows/openocd.exe"
+      - "C:/Windows/openocd"
+      - "C:/Windows/System32/wbem/openocd.com"
+      - "C:/Windows/System32/wbem/openocd.exe"
+      - "C:/Windows/System32/wbem/openocd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/openocd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/openocd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/openocd"
+      - "C:/Windows/System32/OpenSSH/openocd.com"
+      - "C:/Windows/System32/OpenSSH/openocd.exe"
+      - "C:/Windows/System32/OpenSSH/openocd"
+      - "C:/WorkLearn/CMake/bin/openocd.com"
+      - "C:/WorkLearn/CMake/bin/openocd.exe"
+      - "C:/WorkLearn/CMake/bin/openocd"
+      - "C:/WorkLearn/openocd/OpenOCD-20260302-0.12.0/bin/openocd.com"
+    found: "C:/WorkLearn/openocd/OpenOCD-20260302-0.12.0/bin/openocd.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WorkLearn\\CMake\\bin"
+        - "C:\\WorkLearn\\openocd\\OpenOCD-20260302-0.12.0\\bin"
+        - "C:\\WorkLearn\\MinGW\\bin"
+        - "C:\\WorkLearn\\SysGCC\\arm-eabi\\bin"
+        - "C:\\WorkLearn\\Git\\cmd"
+        - "C:\\Users\\aleks\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aleks\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/stm32-baremetal-driver"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
 ...

@@ -59,10 +59,10 @@ RM = C:\WorkLearn\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\WorkLearn\stm\stm32-interrupts
+CMAKE_SOURCE_DIR = C:\WorkLearn\stm\stm32-baremetal-driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\WorkLearn\stm\stm32-interrupts\build
+CMAKE_BINARY_DIR = C:\WorkLearn\stm\stm32-baremetal-driver\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -89,9 +89,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkLearn\stm\stm32-interrupts\build\CMakeFiles C:\WorkLearn\stm\stm32-interrupts\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkLearn\stm\stm32-baremetal-driver\build\CMakeFiles C:\WorkLearn\stm\stm32-baremetal-driver\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkLearn\stm\stm32-interrupts\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkLearn\stm\stm32-baremetal-driver\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -119,17 +119,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named stm32-interrupts
+# Target rules for targets named stm32-baremetal-driver
 
 # Build rule for target.
-stm32-interrupts: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stm32-interrupts
-.PHONY : stm32-interrupts
+stm32-baremetal-driver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stm32-baremetal-driver
+.PHONY : stm32-baremetal-driver
 
 # fast build rule for target.
-stm32-interrupts/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/build
-.PHONY : stm32-interrupts/fast
+stm32-baremetal-driver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/build
+.PHONY : stm32-baremetal-driver/fast
+
+#=============================================================================
+# Target rules for targets named flash
+
+# Build rule for target.
+flash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 flash
+.PHONY : flash
+
+# fast build rule for target.
+flash/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/build
+.PHONY : flash/fast
 
 #=============================================================================
 # Convenience rules to build test dependencies.
@@ -144,7 +157,7 @@ src/main.obj: src/main.c.obj
 
 # target to build an object file
 src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/src/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/main.c.obj
 .PHONY : src/main.c.obj
 
 src/main.i: src/main.c.i
@@ -152,7 +165,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -160,15 +173,159 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/peripherals/clock/clock.obj: src/peripherals/clock/clock.c.obj
+.PHONY : src/peripherals/clock/clock.obj
+
+# target to build an object file
+src/peripherals/clock/clock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/clock/clock.c.obj
+.PHONY : src/peripherals/clock/clock.c.obj
+
+src/peripherals/clock/clock.i: src/peripherals/clock/clock.c.i
+.PHONY : src/peripherals/clock/clock.i
+
+# target to preprocess a source file
+src/peripherals/clock/clock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/clock/clock.c.i
+.PHONY : src/peripherals/clock/clock.c.i
+
+src/peripherals/clock/clock.s: src/peripherals/clock/clock.c.s
+.PHONY : src/peripherals/clock/clock.s
+
+# target to generate assembly for a file
+src/peripherals/clock/clock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/clock/clock.c.s
+.PHONY : src/peripherals/clock/clock.c.s
+
+src/peripherals/gpio/gpio.obj: src/peripherals/gpio/gpio.c.obj
+.PHONY : src/peripherals/gpio/gpio.obj
+
+# target to build an object file
+src/peripherals/gpio/gpio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/gpio/gpio.c.obj
+.PHONY : src/peripherals/gpio/gpio.c.obj
+
+src/peripherals/gpio/gpio.i: src/peripherals/gpio/gpio.c.i
+.PHONY : src/peripherals/gpio/gpio.i
+
+# target to preprocess a source file
+src/peripherals/gpio/gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/gpio/gpio.c.i
+.PHONY : src/peripherals/gpio/gpio.c.i
+
+src/peripherals/gpio/gpio.s: src/peripherals/gpio/gpio.c.s
+.PHONY : src/peripherals/gpio/gpio.s
+
+# target to generate assembly for a file
+src/peripherals/gpio/gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/gpio/gpio.c.s
+.PHONY : src/peripherals/gpio/gpio.c.s
+
+src/peripherals/led/led.obj: src/peripherals/led/led.c.obj
+.PHONY : src/peripherals/led/led.obj
+
+# target to build an object file
+src/peripherals/led/led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/led/led.c.obj
+.PHONY : src/peripherals/led/led.c.obj
+
+src/peripherals/led/led.i: src/peripherals/led/led.c.i
+.PHONY : src/peripherals/led/led.i
+
+# target to preprocess a source file
+src/peripherals/led/led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/led/led.c.i
+.PHONY : src/peripherals/led/led.c.i
+
+src/peripherals/led/led.s: src/peripherals/led/led.c.s
+.PHONY : src/peripherals/led/led.s
+
+# target to generate assembly for a file
+src/peripherals/led/led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/led/led.c.s
+.PHONY : src/peripherals/led/led.c.s
+
+src/peripherals/ring_buffer/ring_buffer.obj: src/peripherals/ring_buffer/ring_buffer.c.obj
+.PHONY : src/peripherals/ring_buffer/ring_buffer.obj
+
+# target to build an object file
+src/peripherals/ring_buffer/ring_buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/ring_buffer/ring_buffer.c.obj
+.PHONY : src/peripherals/ring_buffer/ring_buffer.c.obj
+
+src/peripherals/ring_buffer/ring_buffer.i: src/peripherals/ring_buffer/ring_buffer.c.i
+.PHONY : src/peripherals/ring_buffer/ring_buffer.i
+
+# target to preprocess a source file
+src/peripherals/ring_buffer/ring_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/ring_buffer/ring_buffer.c.i
+.PHONY : src/peripherals/ring_buffer/ring_buffer.c.i
+
+src/peripherals/ring_buffer/ring_buffer.s: src/peripherals/ring_buffer/ring_buffer.c.s
+.PHONY : src/peripherals/ring_buffer/ring_buffer.s
+
+# target to generate assembly for a file
+src/peripherals/ring_buffer/ring_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/ring_buffer/ring_buffer.c.s
+.PHONY : src/peripherals/ring_buffer/ring_buffer.c.s
+
+src/peripherals/systick/systick.obj: src/peripherals/systick/systick.c.obj
+.PHONY : src/peripherals/systick/systick.obj
+
+# target to build an object file
+src/peripherals/systick/systick.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/systick/systick.c.obj
+.PHONY : src/peripherals/systick/systick.c.obj
+
+src/peripherals/systick/systick.i: src/peripherals/systick/systick.c.i
+.PHONY : src/peripherals/systick/systick.i
+
+# target to preprocess a source file
+src/peripherals/systick/systick.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/systick/systick.c.i
+.PHONY : src/peripherals/systick/systick.c.i
+
+src/peripherals/systick/systick.s: src/peripherals/systick/systick.c.s
+.PHONY : src/peripherals/systick/systick.s
+
+# target to generate assembly for a file
+src/peripherals/systick/systick.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/systick/systick.c.s
+.PHONY : src/peripherals/systick/systick.c.s
+
+src/peripherals/usart/usart.obj: src/peripherals/usart/usart.c.obj
+.PHONY : src/peripherals/usart/usart.obj
+
+# target to build an object file
+src/peripherals/usart/usart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/usart/usart.c.obj
+.PHONY : src/peripherals/usart/usart.c.obj
+
+src/peripherals/usart/usart.i: src/peripherals/usart/usart.c.i
+.PHONY : src/peripherals/usart/usart.i
+
+# target to preprocess a source file
+src/peripherals/usart/usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/usart/usart.c.i
+.PHONY : src/peripherals/usart/usart.c.i
+
+src/peripherals/usart/usart.s: src/peripherals/usart/usart.c.s
+.PHONY : src/peripherals/usart/usart.s
+
+# target to generate assembly for a file
+src/peripherals/usart/usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/peripherals/usart/usart.c.s
+.PHONY : src/peripherals/usart/usart.c.s
 
 src/system_stm32f1xx.obj: src/system_stm32f1xx.c.obj
 .PHONY : src/system_stm32f1xx.obj
 
 # target to build an object file
 src/system_stm32f1xx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/src/system_stm32f1xx.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/system_stm32f1xx.c.obj
 .PHONY : src/system_stm32f1xx.c.obj
 
 src/system_stm32f1xx.i: src/system_stm32f1xx.c.i
@@ -176,7 +333,7 @@ src/system_stm32f1xx.i: src/system_stm32f1xx.c.i
 
 # target to preprocess a source file
 src/system_stm32f1xx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/src/system_stm32f1xx.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/system_stm32f1xx.c.i
 .PHONY : src/system_stm32f1xx.c.i
 
 src/system_stm32f1xx.s: src/system_stm32f1xx.c.s
@@ -184,7 +341,7 @@ src/system_stm32f1xx.s: src/system_stm32f1xx.c.s
 
 # target to generate assembly for a file
 src/system_stm32f1xx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/src/system_stm32f1xx.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/src/system_stm32f1xx.c.s
 .PHONY : src/system_stm32f1xx.c.s
 
 startup/startup_stm32f103xb.obj: startup/startup_stm32f103xb.s.obj
@@ -192,7 +349,7 @@ startup/startup_stm32f103xb.obj: startup/startup_stm32f103xb.s.obj
 
 # target to build an object file
 startup/startup_stm32f103xb.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-interrupts.dir\build.make CMakeFiles/stm32-interrupts.dir/startup/startup_stm32f103xb.s.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32-baremetal-driver.dir\build.make CMakeFiles/stm32-baremetal-driver.dir/startup/startup_stm32f103xb.s.obj
 .PHONY : startup/startup_stm32f103xb.s.obj
 
 # Help Target
@@ -203,10 +360,29 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... stm32-interrupts
+	@echo ... flash
+	@echo ... stm32-baremetal-driver
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/peripherals/clock/clock.obj
+	@echo ... src/peripherals/clock/clock.i
+	@echo ... src/peripherals/clock/clock.s
+	@echo ... src/peripherals/gpio/gpio.obj
+	@echo ... src/peripherals/gpio/gpio.i
+	@echo ... src/peripherals/gpio/gpio.s
+	@echo ... src/peripherals/led/led.obj
+	@echo ... src/peripherals/led/led.i
+	@echo ... src/peripherals/led/led.s
+	@echo ... src/peripherals/ring_buffer/ring_buffer.obj
+	@echo ... src/peripherals/ring_buffer/ring_buffer.i
+	@echo ... src/peripherals/ring_buffer/ring_buffer.s
+	@echo ... src/peripherals/systick/systick.obj
+	@echo ... src/peripherals/systick/systick.i
+	@echo ... src/peripherals/systick/systick.s
+	@echo ... src/peripherals/usart/usart.obj
+	@echo ... src/peripherals/usart/usart.i
+	@echo ... src/peripherals/usart/usart.s
 	@echo ... src/system_stm32f1xx.obj
 	@echo ... src/system_stm32f1xx.i
 	@echo ... src/system_stm32f1xx.s

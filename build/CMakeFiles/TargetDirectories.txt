@@ -1,3 +1,4 @@
-C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/stm32-interrupts.dir
-C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/edit_cache.dir
-C:/WorkLearn/stm/stm32-interrupts/build/CMakeFiles/rebuild_cache.dir
+C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/stm32-baremetal-driver.dir
+C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/flash.dir
+C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/edit_cache.dir
+C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/rebuild_cache.dir

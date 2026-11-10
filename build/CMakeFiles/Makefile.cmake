@@ -95,7 +95,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/WorkLearn/CMake/share/cmake-4.5/Modules/Internal/CMakeInspectCLinker.cmake"
   "C:/WorkLearn/CMake/share/cmake-4.5/Modules/Internal/FeatureTesting.cmake"
   "C:/WorkLearn/CMake/share/cmake-4.5/Modules/Platform/Generic.cmake"
-  "C:/WorkLearn/stm/stm32-interrupts/CMakeLists.txt"
+  "C:/WorkLearn/stm/stm32-baremetal-driver/CMakeLists.txt"
   "CMakeFiles/4.5.0-rc2/CMakeASMCompiler.cmake"
   "CMakeFiles/4.5.0-rc2/CMakeCCompiler.cmake"
   "CMakeFiles/4.5.0-rc2/CMakeSystem.cmake"
@@ -120,5 +120,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/stm32-interrupts.dir/DependInfo.cmake"
+  "CMakeFiles/stm32-baremetal-driver.dir/DependInfo.cmake"
+  "CMakeFiles/flash.dir/DependInfo.cmake"
   )
