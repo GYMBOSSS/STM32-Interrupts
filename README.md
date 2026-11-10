@@ -1,5 +1,9 @@
 # stm32-baremetal-driver
 
+<p align="center">
+  <img src="images/board.jpg" alt="Nucleo-F103RB board running the firmware" width="600">
+</p>
+
 Register-level drivers and a demo application for the **STM32F103RB** (Cortex-M3), written in C without HAL or any vendor middleware. Only the CMSIS headers are used.
 
 The firmware brings the MCU up to 72 MHz, starts a 1 ms system tick, and runs a small UART command interface that controls an LED. Every peripheral lives in its own module with a small public API; interrupt handlers sit next to the peripheral they belong to.
