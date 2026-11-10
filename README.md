@@ -94,6 +94,11 @@ cmake -S . -B build -G "MinGW Makefiles"
 cmake --build build
 ```
 
+<<<<<<< HEAD
+=======
+With GNU Make instead of Ninja use `-G "MinGW Makefiles"`.
+
+>>>>>>> ea132693f10ce1df5309a4ec31e55b630f0a25f5
 Build type is `Debug` (`-Og -g3`) by default. For an optimized build:
 
 ```
