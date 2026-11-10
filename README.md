@@ -67,7 +67,7 @@ Interrupt handlers (`SysTick_Handler`, `USART2_IRQHandler`) are defined in the m
 |------|---------|---------|
 | [Arm GNU Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads) (`arm-none-eabi-gcc`) | 12 or newer | Compiler, linker, `objcopy`, `size` |
 | [CMake](https://cmake.org/download/) | 3.22 or newer | Build system generator |
-| [Ninja](https://ninja-build.org/) or GNU Make | any recent | Build tool |
+| GNU Make for Windows (`mingw32-make`, from [MinGW-w64](https://www.mingw-w64.org/) or [MSYS2](https://www.msys2.org/)) | any recent | Build tool |
 | [OpenOCD](https://openocd.org/) | 0.11 or newer | Flashing and debugging |
 | Serial terminal (PuTTY, Tera Term, `picocom`) | – | Talking to the board |
 
@@ -76,25 +76,28 @@ All tools must be available in `PATH`. Check:
 ```
 arm-none-eabi-gcc --version
 cmake --version
+mingw32-make --version
 openocd --version
 ```
 
+The project is developed and built on Windows with the **MinGW Makefiles** CMake generator. On Linux or macOS use `-G "Unix Makefiles"` (or `-G Ninja`) instead; nothing else changes.
+
 ## Build
+
+Run in PowerShell or cmd:
 
 ```
 git clone https://github.com/<your-username>/stm32-baremetal-driver.git
 cd stm32-baremetal-driver
 
-cmake -S . -B build -G Ninja
+cmake -S . -B build -G "MinGW Makefiles"
 cmake --build build
 ```
-
-With GNU Make instead of Ninja use `-G "Unix Makefiles"`.
 
 Build type is `Debug` (`-Og -g3`) by default. For an optimized build:
 
 ```
-cmake -S . -B build-release -G Ninja -DCMAKE_BUILD_TYPE=Release
+cmake -S . -B build-release -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release
 cmake --build build-release
 ```
 
@@ -186,6 +189,8 @@ If the clock fails to start (for example, no HSE), the firmware stays in an erro
 | Symptom | Likely cause |
 |---------|--------------|
 | `arm-none-eabi-gcc: command not found` | Toolchain is not in `PATH` |
+| `CMake was unable to find a build program corresponding to "MinGW Makefiles"` | `mingw32-make` is not in `PATH` |
+| Build uses wrong compiler or generator after changing settings | Stale cache: delete `build/` and run the configure step again |
 | `undefined reference to ...` | Source file is not listed in `add_executable` in `CMakeLists.txt` |
 | `fatal error: xyz.h: No such file` | Module directory is missing from `target_include_directories` |
 | No output on the terminal | Wrong COM port or baud rate; check that the board was reset after flashing |
