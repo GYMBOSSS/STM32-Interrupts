@@ -89,7 +89,7 @@ cmake -S . -B build -G Ninja
 cmake --build build
 ```
 
-With GNU Make instead of Ninja use `-G "Unix Makefiles"`.
+With GNU Make instead of Ninja use `-G "MinGW Makefiles"`.
 
 Build type is `Debug` (`-Og -g3`) by default. For an optimized build:
 
