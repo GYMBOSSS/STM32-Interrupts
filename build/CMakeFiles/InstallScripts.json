@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/WorkLearn/stm/stm32-baremetal-driver/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

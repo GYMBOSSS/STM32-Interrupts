@@ -1,4 +1,0 @@
-C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/stm32-baremetal-driver.dir
-C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/flash.dir
-C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/edit_cache.dir
-C:/WorkLearn/stm/stm32-baremetal-driver/build/CMakeFiles/rebuild_cache.dir
