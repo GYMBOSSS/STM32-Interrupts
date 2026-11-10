@@ -1,0 +1,14 @@
+# Build output
+build*/
+*.map
+
+# Object and dependency files (in case of in-source builds)
+*.o
+*.obj
+*.d
+
+# Editor and OS files
+.vscode/settings.json
+*.swp
+*~
+Thumbs.db
