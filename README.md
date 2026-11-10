@@ -1,7 +1,7 @@
 # stm32-baremetal-driver
 
 <p align="center">
-  <img src="docs/images/board.jpg" alt="Nucleo-F103RB board running the firmware" width="600">
+  <img src="images/board.jpg" alt="Nucleo-F103RB board running the firmware" width="600">
 </p>
 
 Register-level drivers and a demo application for the **STM32F103RB** (Cortex-M3), written in C without HAL or any vendor middleware. Only the CMSIS headers are used.
